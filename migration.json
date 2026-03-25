@@ -6,7 +6,7 @@
   },
   {
     "migration_id": 2,
-    "is_live": false,
+    "is_live": true,
     "query": "UPDATE exercises SET count = 2000 WHERE name = 'Jumping Jacks';"
   }
 ]
