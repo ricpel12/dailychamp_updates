@@ -3,5 +3,10 @@
     "migration_id": 1,
     "is_live": true,
     "query": "UPDATE rank_thresholds SET overall_xp_threshold = ex_xp_threshold * 7;"
+  },
+  {
+    "migration_id": 2,
+    "is_live": false,
+    "query": "UPDATE exercises SET count = 2000 WHERE name = 'Jumping Jacks';"
   }
 ]
